@@ -1,0 +1,14 @@
+id: 526aa907-400f-4296-8bc0-f862431943cc
+pipeline_type: WORKSPACE
+name: auto-cdc-pipeline
+libraries:
+  - glob:
+      include: /Workspace/Users/fernando.custodio@databricks.com/vertem/vertem-workshop/auto-cdc/auto-cdc-pipeline/transformations/**
+schema: workshop_dataprep
+continuous: false
+development: false
+photon: true
+channel: CURRENT
+catalog: vertem
+serverless: true
+root_path: /Workspace/Users/fernando.custodio@databricks.com/vertem/vertem-workshop/auto-cdc/auto-cdc-pipeline
